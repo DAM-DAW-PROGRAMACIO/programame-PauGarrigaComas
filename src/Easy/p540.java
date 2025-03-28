@@ -10,7 +10,6 @@ public class p540 {
 		Scanner scan = new Scanner(System.in);
 		int casos = Integer.parseInt(scan.nextLine());
 		String linia;
-		int total;
 		int resultat;	
 		int aux;
 		
@@ -19,9 +18,13 @@ public class p540 {
 			linia = scan.nextLine();
 			String[] dades = linia.split(" ");			
 			
-			aux = (Integer.parseInt(dades[0]) * Integer.parseInt(dades[1]));
-			total = (Integer.parseInt(dades[0]) * Integer.parseInt(dades[1]))- (Integer.parseInt(dades[1]) - Integer.parseInt(dades[3]));
-			resultat = aux + ( (Integer.parseInt(dades[2]) * Integer.parseInt(dades[1])) + Integer.parseInt(dades[3]));
+					
+			aux = (Integer.parseInt(dades[1]) * Integer.parseInt(dades[2])) + (Integer.parseInt(dades[3]));
+			
+			
+			resultat = aux + ( (Integer.parseInt(dades[1]) * Integer.parseInt(dades[0])));
+			
+			
 			System.out.println(aux+" "+ resultat);			
 		}
 		scan.close();

@@ -14,7 +14,7 @@ public class p427 {
 			String paraula1 = scan.nextLine();
 			String paraula2 = scan.nextLine();
 			
-			if ((paraula1.contains("Luke")) && (paraula2.contains("padre"))) 
+			if ((paraula1.equals("Luke")) && (paraula2.equals("padre"))) 
 			{
 				System.out.println("TOP SECRET");
 			}
