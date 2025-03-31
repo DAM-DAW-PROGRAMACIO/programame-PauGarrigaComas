@@ -33,8 +33,7 @@ public class p245 {
 					ant = actual;
 					actual = scn.nextLong();
 					i++;
-				}
-				
+				}				
 				if (creixent || decreixent ) 
 				{
 					System.out.println("DALTON");
@@ -43,8 +42,7 @@ public class p245 {
 				{
 					System.out.println("DESCONOCIDOS");
 					scn.nextLine();
-				}
-		
+				}		
 			}
 			else
 			{
