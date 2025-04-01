@@ -18,7 +18,7 @@ public class p700 {
 			{
 				serie = scn.nextLine();
 				String[] dades = serie.split(" ");
-				if (Integer.parseInt(dades[0]) => 30)
+				if (Integer.parseInt(dades[0]) >= 30)
 				{
 					System.out.println(serie);					
 				}
